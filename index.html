@@ -19,15 +19,14 @@
             </div>
         </nav>
     </header>
-
-    <div id="paso1">
-        <div>
+    <div id="paso1" class="paso1">
+        <div class="textIntro">
             <p>Hola!Se le va a solicitar información personal. Deberá confirmar que los datos introducidos son correctos. En caso contrario modifique estos datos, le agradecemos su colaboración.
             </p>
         </div>
     </div>
 
-    <div id="paso2" hidden>
+    <div id="paso2" class="paso2" hidden>
         <form action="#" method="POST">
             <label for="nombre">Nombre: </label>
             <input id="nombre" type="text" name="dataForm">
@@ -42,16 +41,16 @@
             <input id="codigoPostal" type="number" name="dataForm" maxlength="5">
             <label for="provincia">Provincia: </label>
             <select id="provincia" name="dataForm">
-                <option value=""></option><option value="VLC">Valencia</option>
+                <option value=""></option>
+                <option value="VLC">Valencia</option>
                 <option value="CAS">Castellon</option>
-                <option value="ALC">Alicante</option>            
+                <option value="ALC">Alicante</option>
             </select>
             <label for="municipio">Municipio: </label>
             <input id="municipio" type="text" name="dataForm" style="text-transform: uppercase;">
         </form>
     </div>
-
-    <div id="paso3" hidden>
+    <div id="paso3" class="paso3" hidden>
         <div id="container-datos">
             <p><span class="ref">Nombre: </span><span id="nombre2"></span></p>
             <p><span class="ref">Apellidos: </span><span id="apellidos2"></span></p>
@@ -62,11 +61,9 @@
             <p><span class="ref">Municipio: </span><span id="municipio2"></span></p>
         </div>
     </div>
-
-    <div id="paso4" hidden>
+    <div id="paso4" class="paso4" hidden>
         <input id="endButton" value="Terminar" type="button">
-    </div>.
-
+    </div>
 </body>
 
 </html>

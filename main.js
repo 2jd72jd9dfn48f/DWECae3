@@ -6,9 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const codigoPostal = document.getElementById("codigoPostal");
     const provincia = document.getElementById("provincia");
     const municipio = document.getElementById("municipio");
+    const nombre2 = document.getElementById("nombre2");
+    const apellidos2 = document.getElementById("apellidos2");
+    const fecha_n2 = document.getElementById("fecha_n2");
+    const direccion2 = document.getElementById("direccion");
+    const codigoPostal2 = document.getElementById("codigoPostal2");
+    const provincia2 = document.getElementById("provincia2");
+    const municipio2 = document.getElementById("municipio2");
     const paso1 = document.getElementById("paso1");
     const paso2 = document.getElementById("paso2");
-
+    const paso3 = document.getElementById("paso3");
+    const paso4 = document.getElementById("paso4");
     const backButton = document.getElementById("backButton");
     const nextButton = document.getElementById("nextButton");
     const confirmarButton = document.getElementById("confirmarButton");
@@ -30,7 +38,7 @@ function regreso1() {
     paso1.style.display = "block";
     paso2.style.display = "none";
 }
-/* 
+
 const elementoFormulario = document.getElementsByName("dataForm");
 
 function Get_FormElementsValue(name, surname, f_nac, location, cp, prov, mun) {
@@ -109,4 +117,4 @@ function regreso3() {
     paso2.style.display = "none";
     paso3.style.display = "flex";
     paso4.style.display = "none";
-} */
+}
