@@ -8,12 +8,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/2jd72jd9dfn48f/DWEC/tree/acteva1/AE3"
+        "url": "https://github.com/2jd72jd9dfn48f/DWECae3"
     },
     "author": "Esteban Herrera Escofet",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/2jd72jd9dfn48f/DWEC/issues"
+        "url": "https://github.com/2jd72jd9dfn48f/DWECae3/issues"
     },
-    "homepage": "https://github.com/2jd72jd9dfn48f/DWEC#readme"
+    "homepage": "https://github.com/2jd72jd9dfn48f/DWECae3#readme"
 }
