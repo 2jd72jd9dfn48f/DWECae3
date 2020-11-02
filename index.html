@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE3</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <h1>AE3</h1>
+                <span onclick="regreso1()" id="backButton" style='font-size:20px;' hidden>Atrás</span>
+                <span onclick="siguiente()" id="nextButton" style='font-size:20px;'>Siguiente</span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="paso1">
+        <div>
+            <p>Hola!Se le va a solicitar información personal. Deberá confirmar que los datos introducidos son correctos. En caso contrario modifique estos datos, le agradecemos su colaboración.
+            </p>
+        </div>
+    </div>
+
+    <div id="paso2" hidden>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" name="dataForm">
+            <label for="apellidos">Apellidos: </label>
+            <input id="apellidos" type="text" name="dataForm">
+            <label for="direccion">Direccion: </label>
+            <input id="direccion" type="text" name="dataFormOptional">
+            <label for="fecha_n">Fecha de nacimiento: </label>
+            <input id="fecha_n" type="date" name="dataForm">
+
+            <label for="codigoPostal">Código postal: </label>
+            <input id="codigoPostal" type="number" name="dataForm" maxlength="5">
+            <label for="provincia">Provincia: </label>
+            <select id="provincia" name="dataForm">
+                <option value=""></option><option value="VLC">Valencia</option>
+                <option value="CAS">Castellon</option>
+                <option value="ALC">Alicante</option>            
+            </select>
+            <label for="municipio">Municipio: </label>
+            <input id="municipio" type="text" name="dataForm" style="text-transform: uppercase;">
+        </form>
+    </div>
+
+    <div id="paso3" hidden>
+        <div id="container-datos">
+            <p><span class="ref">Nombre: </span><span id="nombre2"></span></p>
+            <p><span class="ref">Apellidos: </span><span id="apellidos2"></span></p>
+            <p><span class="ref">Fecha de Nacimiento: </span><span id="fecha_n2"></span></p>
+            <p><span class="ref">Codigo Postal: </span><span id="codigoPostal2"></span></p>
+            <p><span class="ref">Dirección: </span><span id="direccion2"></span></p>
+            <p><span class="ref">Provincia: </span><span id="provincia2"></span></p>
+            <p><span class="ref">Municipio: </span><span id="municipio2"></span></p>
+        </div>
+    </div>
+
+    <div id="paso4" hidden>
+        <input id="endButton" value="Terminar" type="button">
+    </div>.
+
+</body>
+
+</html>
